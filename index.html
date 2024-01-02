@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>FeelIT</title>
+
+</head>
+
+<body>
+
+    <div id="startButton" class="button-start">
+        Start Game
+    </div>
+
+    <div id="stopButton" class="button-stop" hidden>
+        00:00
+    </div>
+
+
+    <div id="grid-container">
+        <!-- <div id="0" class="grid-item">Element 00</div>
+        <div id="1" class="grid-item">Element 01</div>
+        <div id="2" class="grid-item">Element 02</div>
+        <div id="3" class="grid-item">Element 10</div>
+        <div id="4" class="grid-item">Element 11</div>
+        <div id="5" class="grid-item">Element 12</div>
+        <div id="6" class="grid-item">Element 20</div>
+        <div id="7" class="grid-item">Element 31</div>
+        <div id="8" class="grid-item">Element 32</div> -->
+    </div>
+
+    <script type="importmap">
+        {
+          "imports": {
+            "redis": "https://cdn.jsdelivr.net/npm/redis@4.6.12/+esm"
+          }
+        }
+      </script>
+    <script type="module" src="main.js">
+    </script>
+
+</body>
+
+</html>
